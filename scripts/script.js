@@ -1,7 +1,7 @@
 // making title
 const d = document;
 let title = d.createElement("h1");
-let text = d.createTextNode("Welcome to mi DOM exercices!");
+let text = d.createTextNode("Welcome to my DOM exercices!");
 title.appendChild(text);
 
 // title style
@@ -38,7 +38,7 @@ const createCard = (title, image, link) => {
 // Usa la función para crear tres tarjetas
 let card1 = createCard(
     "Color Flipper",
-    "https://via.placeholder.com/150x150",
+    "./assets/firstaplication.png",
     "./color-flipper/index.html"
 );
 let card2 = createCard(

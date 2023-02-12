@@ -1,7 +1,7 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#f15025"],
-    d = document;
-const btn = d.getElementById("btn");
-const color = d.querySelector(".color");
+    d = document,
+    btn = d.getElementById("btn"),
+    color = d.querySelector(".color");
 
 btn.addEventListener("click", function () {
     const randomNumber = getRandomNumber();
