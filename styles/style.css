@@ -161,6 +161,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 #card-container img {
