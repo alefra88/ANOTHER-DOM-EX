@@ -1,0 +1,29 @@
+:root {
+    --main-color: #000;
+    --font-color: #fff;
+    --font-family: "Poppins", sans-serif;
+}
+
+.h1-style {
+    text-align: center;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--main-color);
+    color: var(--font-color);
+}
+
+/* cards responsive */
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+@media (max-width: 767px) {
+    #card-container {
+        grid-template-columns: 1fr;
+    }
+}
