@@ -42,9 +42,9 @@ let card1 = createCard(
     "./color-flipper/index.html"
 );
 let card2 = createCard(
-    "Título de la tarjeta 2",
-    "https://via.placeholder.com/150x150",
-    "content2.html"
+    "Counter",
+    "./assets/counter.png",
+    "./counter/index.html"
 );
 let card3 = createCard(
     "Título de la tarjeta 3",
