@@ -179,3 +179,26 @@ main {
 #card-container h2 {
     text-align: center;
 }
+
+.dark-mode-btn {
+    position: fixed;
+    z-index: 998;
+    bottom: 1vh;
+    right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    transition: all 0.3s ease-out;
+    color: var(--clr-grey-3);
+    background-color: transparent;
+}
+
+.dark-mode {
+    background-color: var(--clr-black);
+    color: var(--clr-primary-6);
+}

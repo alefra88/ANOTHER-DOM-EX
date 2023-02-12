@@ -57,3 +57,8 @@ let cardContainer = document.getElementById("card-container");
 cardContainer.appendChild(card1);
 cardContainer.appendChild(card2);
 cardContainer.appendChild(card3);
+
+//DARK MODE
+d.getElementById("btn").addEventListener("click", function () {
+    d.body.classList.toggle("dark-mode");
+});
