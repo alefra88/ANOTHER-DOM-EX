@@ -36,9 +36,21 @@ const createCard = (title, image, link) => {
     return cardContainer;
 };
 // Usa la función para crear tres tarjetas
-let card1 = createCard("Título de la tarjeta 1", "https://via.placeholder.com/150x150", "content1.html");
-let card2 = createCard("Título de la tarjeta 2", "https://via.placeholder.com/150x150", "content2.html");
-let card3 = createCard("Título de la tarjeta 3", "https://via.placeholder.com/150x150", "content3.html");
+let card1 = createCard(
+    "Color Flipper",
+    "https://via.placeholder.com/150x150",
+    "./color-flipper/index.html"
+);
+let card2 = createCard(
+    "Título de la tarjeta 2",
+    "https://via.placeholder.com/150x150",
+    "content2.html"
+);
+let card3 = createCard(
+    "Título de la tarjeta 3",
+    "https://via.placeholder.com/150x150",
+    "content3.html"
+);
 
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
