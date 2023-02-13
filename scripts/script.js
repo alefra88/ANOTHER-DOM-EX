@@ -51,12 +51,14 @@ let card3 = createCard(
   "./assets/reviews.png",
   "./review/index.html"
 );
+let card4 = createCard("navBar", "./assets/navbar.png", "./navBar/index.html");
 
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
 cardContainer.appendChild(card1);
 cardContainer.appendChild(card2);
 cardContainer.appendChild(card3);
+cardContainer.appendChild(card4);
 
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
