@@ -7,12 +7,15 @@
 const navToggle = document.querySelector(".nav-toggle"),
   links = document.querySelector(".links");
 
-navToggle.addEventListener("click", function () {
-  // console.log(links.classList);
-  // if (links.classList.contains("show-links")) {
-  //   links.classList.remove("show-links");
-  // } else {
-  //   links.classList.add("show-links");
-  // }
-  links.classList.toggle("show-links");
-});
+navToggle.addEventListener(
+  "click",
+  (e = () => {
+    // console.log(links.classList);
+    // if (links.classList.contains("show-links")) {
+    //   links.classList.remove("show-links");
+    // } else {
+    //   links.classList.add("show-links");
+    // }
+    links.classList.toggle("show-links");
+  })
+);

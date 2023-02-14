@@ -57,6 +57,11 @@ let card5 = createCard(
   "./assets/sidebar.png",
   "./sideBAR/index.html"
 );
+let card6 = createCard(
+  "Modal",
+  "./assets/modal.png",
+  "./modal/index.html"
+);
 
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
@@ -65,6 +70,7 @@ cardContainer.appendChild(card2);
 cardContainer.appendChild(card3);
 cardContainer.appendChild(card4);
 cardContainer.appendChild(card5);
+cardContainer.appendChild(card6);
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
   d.body.classList.toggle("dark-mode");
