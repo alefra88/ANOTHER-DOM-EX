@@ -60,8 +60,8 @@ let card5 = createCard(
 let card6 = createCard("Modal", "./assets/modal.png", "./modal/index.html");
 let card7 = createCard(
   "Questions",
-  "./assets/questions.png",
-  "./questions/index.html"
+  "./assets/video.png",
+  "./video/index.html"
 );
 let card8 = createCard("Menu", "./assets/menu.png", "./menu/index.html");
 
@@ -75,6 +75,8 @@ cardContainer.appendChild(card5);
 cardContainer.appendChild(card6);
 cardContainer.appendChild(card7);
 cardContainer.appendChild(card8);
+cardContainer.appendChild(card9);
+
 
 
 //DARK MODE
