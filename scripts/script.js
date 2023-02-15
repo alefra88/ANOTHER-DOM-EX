@@ -74,6 +74,8 @@ cardContainer.appendChild(card4);
 cardContainer.appendChild(card5);
 cardContainer.appendChild(card6);
 cardContainer.appendChild(card7);
+cardContainer.appendChild(card8);
+
 
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
