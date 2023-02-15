@@ -63,6 +63,7 @@ let card7 = createCard(
   "./assets/questions.png",
   "./questions/index.html"
 );
+let card8 = createCard("Menu", "./assets/menu.png", "./menu/index.html");
 
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
