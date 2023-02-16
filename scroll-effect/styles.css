@@ -493,3 +493,7 @@ a.shake:nth-of-type(5):hover {
   background: linear-gradient(rgba(212, 224, 170, 0.5), rgba(0, 0, 0, 0.7)),
     url(./nine-lives_m21_2560x1600_wallpaper.jpg) center/cover no-repeat;
 }
+
+.section {
+  position: relative;
+}

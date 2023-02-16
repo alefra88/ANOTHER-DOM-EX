@@ -70,6 +70,7 @@ let card10 = createCard(
   "./assets/webpage.png",
   "./scroll-effect/index.html"
 );
+let card11 = createCard("About", "./assets/about.png", "./about/index.html");
 
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
@@ -83,6 +84,7 @@ cardContainer.appendChild(card7);
 cardContainer.appendChild(card8);
 cardContainer.appendChild(card9);
 cardContainer.appendChild(card10);
+cardContainer.appendChild(card11);
 
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
