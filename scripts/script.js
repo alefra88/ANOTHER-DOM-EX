@@ -66,9 +66,9 @@ let card7 = createCard(
 let card8 = createCard("Menu", "./assets/menu.png", "./menu/index.html");
 let card9 = createCard("video", "./assets/video.png", "./video/index.html");
 let card10 = createCard(
-  "Scroll-Effect",
-  "./assets/menu.png",
-  "./menu/index.html"
+  "Portfolio Feb 2023",
+  "./assets/webpage.png",
+  "./scroll-effect/index.html"
 );
 
 // Añade las tarjetas a un elemento en el HTML
