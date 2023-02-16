@@ -76,6 +76,11 @@ let card12 = createCard(
   "./assets/counter2.png",
   "./counter-article/index.html"
 );
+let card13 = createCard(
+  "Another boring lorem",
+  "./assets/lorem.png",
+  "./lorem/index.html"
+);
 
 // let card12 = createCard("about", "./assets/about.png", "./about/index.html");
 // Añade las tarjetas a un elemento en el HTML
@@ -92,7 +97,7 @@ cardContainer.appendChild(card9);
 cardContainer.appendChild(card10);
 cardContainer.appendChild(card11);
 cardContainer.appendChild(card12);
-
+cardContainer.appendChild(card13);
 
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
