@@ -147,3 +147,17 @@ const randomText =
   ];
 newParagraph.textContent = randomText;
 container.insertBefore(newParagraph, link);
+
+// insertando texto a secccion about
+const randomText2 =
+  texts[
+    Object.keys(texts)[Math.floor(Math.random() * Object.keys(texts).length)]
+  ];
+const newParagraph2 = document.createElement("p");
+newParagraph2.textContent = randomText2;
+
+const about = document.querySelector("#about");
+
+about.appendChild(newParagraph2);
+
+

@@ -19,7 +19,7 @@
         <div class="nav-center">
           <!-- nav header -->
           <div class="nav-header">
-            <img src="./logo.png" class="logo" alt="logo" />
+            <img src="./logo.png" class="logo shake" alt="logo" />
             <button class="nav-toggle">
               <i class="fas fa-bars"></i>
             </button>
@@ -28,16 +28,16 @@
           <div class="links-container">
             <ul class="links">
               <li>
-                <a href="#home" class="scroll-link">home</a>
+                <a href="#home" class="scroll-link shake">home</a>
               </li>
               <li>
-                <a href="#about" class="scroll-link">about</a>
+                <a href="#about" class="scroll-link shake">about</a>
               </li>
               <li>
-                <a href="#works" class="scroll-link">works</a>
+                <a href="#works" class="scroll-link shake">works</a>
               </li>
               <li>
-                <a href="#projects" class="scroll-link">projects</a>
+                <a href="#projects" class="scroll-link shake">projects</a>
               </li>
             </ul>
           </div>
@@ -47,8 +47,10 @@
       <div class="banner">
         <div class="container">
           <h1>Alanef.dev</h1>
-
-          <a id="btnsee" href="#projects" class="scroll-link btn btn-white"
+          <a
+            id="btnsee"
+            href="#projects"
+            class="scroll-link btn btn-white shake"
             >let me see!</a
           >
         </div>
@@ -65,20 +67,35 @@
       <div class="title">
         <h2>My <span>works</span></h2>
       </div>
+      <div class="icons-container">
+        <a
+          href="https://alefra88.github.io/Proyectos-DOM-JavaScript/"
+          target="_blank"
+        >
+          <i class="fa-solid fa-code shake"></i>
+        </a>
+      </div>
     </section>
     <!-- contact -->
     <section id="projects" class="section">
       <div class="title">
         <h2>My <span>Projects</span></h2>
       </div>
+      <div class="icons-container">
+        <a
+          href="https://alefra88.github.io/ANOTHER-DOM-EX/"
+          target="_blank"
+          class="shake"
+          ><i class="fa-solid fa-code shake"></i
+        ></a>
+      </div>
     </section>
     <!-- footer -->
-    <footer class="section">
+    <footer id="footer" class="section">
       <p>
-        copyright &copy; Alanef.dev
-        <span id="date"></span>. all rights reserved
+        copyright &copy; Alanef.dev<span id="date"></span>. all rights reserved
       </p>
-      <div class="icons">
+      <div class="icons-container">
         <a href="https://www.github.com/alefra88" target="_blank" class="shake"
           ><i class="fa-brands fa-github"></i
         ></a>
@@ -108,7 +125,6 @@
     <a class="scroll-link top-link" href="#home">
       <i class="fas fa-arrow-up"></i>
     </a>
-
     <!-- javascript -->
     <script src="app.js"></script>
     <script src="https://alefra88.github.io/customfonts/font-awesome.js"></script>

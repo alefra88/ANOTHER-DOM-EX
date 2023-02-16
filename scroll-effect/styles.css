@@ -106,7 +106,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
+  font-family: var(--clr-grey-6);
 }
 h1 {
   font-size: 3rem;
@@ -174,7 +174,6 @@ p {
 
 .shake {
   font-size: 5vw;
-  cursor: pointer;
   display: inline-block; /*para que el efecto solo aplique el el contenido de la div*/
 }
 
@@ -214,6 +213,10 @@ p {
 /* section */
 .section {
   padding-bottom: 5rem;
+}
+.section p {
+  color: var(--clr-grey-1);
+  font-size: 3rem;
 }
 
 .section-center {
@@ -340,6 +343,9 @@ nav {
     color: var(--clr-white);
   }
 }
+.section p {
+  font-size: 2rem;
+}
 /* hero */
 header {
   min-height: 100vh;
@@ -373,7 +379,7 @@ header {
   text-transform: uppercase;
 }
 .title span {
-  color: var(--clr-secondary);
+  color: var(--clr-primary-5);
 }
 #about,
 #works,
@@ -387,7 +393,7 @@ footer {
   background: var(--clr-grey-1);
   padding: 5rem 1rem;
 }
-footer p {
+#footer p {
   color: var(--clr-white);
   text-align: center;
   text-transform: capitalize;
@@ -428,13 +434,13 @@ footer p {
   }
 }
 
-.icons {
+.icons-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  width: 100%;
 }
-
-.icons a {
+.icons-container a {
   color: var(--clr-white);
   font-size: 2.1rem;
   text-transform: capitalize;
@@ -444,6 +450,9 @@ footer p {
   margin: 0 1rem;
   font-weight: bold;
   padding: 0;
+  /* width: 100%; */
+  top: auto;
+  right: auto;
 }
 
 a.shake:nth-of-type(1):hover {
@@ -464,7 +473,23 @@ a.shake:nth-of-type(5):hover {
 }
 
 .container h1 {
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-7);
 }
 
-#
+#about {
+  min-height: 100vh;
+  background: linear-gradient(rgba(218, 218, 109, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./snakeskin_veil_stx_ma_2560x1600_wallpaper.jpg) center/cover no-repeat;
+}
+
+#works {
+  min-height: 100vh;
+  background: linear-gradient(rgba(26, 32, 32, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./mana-vault-2x2-background-2560x1600.jpg) center/cover no-repeat;
+}
+
+#projects {
+  min-height: 100vh;
+  background: linear-gradient(rgba(212, 224, 170, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./nine-lives_m21_2560x1600_wallpaper.jpg) center/cover no-repeat;
+}
