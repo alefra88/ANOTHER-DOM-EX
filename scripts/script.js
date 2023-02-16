@@ -71,6 +71,12 @@ let card10 = createCard(
   "./scroll-effect/index.html"
 );
 let card11 = createCard("About", "./assets/about.png", "./about/index.html");
+let card12 = createCard(
+  "Counter of item",
+  "./assets/counter2.png",
+  "./counter-article/index.html"
+);
+
 // let card12 = createCard("about", "./assets/about.png", "./about/index.html");
 // Añade las tarjetas a un elemento en el HTML
 let cardContainer = document.getElementById("card-container");
