@@ -77,9 +77,9 @@ let card12 = createCard(
   "./counter-article/index.html"
 );
 let card13 = createCard(
-  "Another boring lorem",
-  "./assets/lorem.png",
-  "./lorem/index.html"
+  "Lista productos",
+  "./assets/lista.png",
+  "./productos-tienda/index.html"
 );
 
 // let card12 = createCard("about", "./assets/about.png", "./about/index.html");
