@@ -81,6 +81,11 @@ let card13 = createCard(
   "./assets/lista.png",
   "./productos-tienda/index.html"
 );
+let card14 = createCard(
+  "slider",
+  "./assets/lista.png",
+  "./slider/index.html"
+);
 
 // let card12 = createCard("about", "./assets/about.png", "./about/index.html");
 // Añade las tarjetas a un elemento en el HTML
@@ -98,6 +103,8 @@ cardContainer.appendChild(card10);
 cardContainer.appendChild(card11);
 cardContainer.appendChild(card12);
 cardContainer.appendChild(card13);
+cardContainer.appendChild(card14);
+
 
 //DARK MODE
 d.getElementById("btn").addEventListener("click", function () {
